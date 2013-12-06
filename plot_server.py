@@ -17,6 +17,7 @@ matplotlib.use('webagg')
 import matplotlib.pyplot as plt
 from matplotlib.backends.backend_webagg_core import (
     FigureManagerWebAgg, new_figure_manager_given_figure)
+from matplotlib._pylab_helpers import Gcf
 
 import numpy as np
 import pandas as pd
